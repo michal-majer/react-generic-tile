@@ -1,4 +1,5 @@
-# react-generic-tile
+# Generic Tile
+`react-generic-tile` is a **KPI tiles** built for React
 
 [![Travis][build-badge]][build]
 [![npm package][npm-badge]][npm]
