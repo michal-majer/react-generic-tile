@@ -1,6 +1,6 @@
 {
   "name": "react-generic-tile",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "react-generic-tile React component",
   "main": "lib/index.js",
   "module": "es/index.js",
@@ -20,13 +20,13 @@
     "test:watch": "nwb test-react --server"
   },
   "dependencies": {
-    "react-icons": "^3.1.0"
-  },
-  "peerDependencies": {
-    "react": "16.x",
+    "react-icons": "^3.1.0",
     "react-lines-ellipsis": "^0.13.2",
     "react-spinners": "^0.4.5",
     "styled-components": "^3.4.10"
+  },
+  "peerDependencies": {
+    "react": "16.x"
   },
   "devDependencies": {
     "nwb": "0.23.x",

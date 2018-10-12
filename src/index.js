@@ -4,12 +4,10 @@ import LinesEllipsis from 'react-lines-ellipsis'
 import { ClipLoader } from 'react-spinners'
 
 import NumericContent from './Numeric'
-import styles from './index.css'
-
 
 const GenericTile = styled.div`
   margin: 5px;
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Roboto', sans-serif;
   border-radius: 0.125rem;
   // cursor: pointer;
   ${props => props.onClick && 'cursor: pointer'};
