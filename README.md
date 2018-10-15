@@ -41,3 +41,17 @@ const rootElement = document.getElementById("root");
 ReactDOM.render(<App />, rootElement);
 ```
 
+## Avaible tile props
+
+| **Property** | **Type** | **Default** | **Description** |
+| --- | :---: | :---: | --- |
+| `header` | `String` | '' | Header text |
+| `subheader` | `String` | '' | Subheader text |
+| `footer` | `String` | '' | Footer text |
+| `number` | `String` | '' | Displayed number (could be text also) |
+| `scale` | `String` | '' |  Scale text |
+| `indicator` | `String` | null | "Up" or "Down" |
+| `icon` | `Object` | '' | Icon object |
+| `color` | `String` | '' | Hex Color or : "Good", "Warning" or "Bad" |
+| `loading` | `Boolean` | false | Loading state |
+
