@@ -10,6 +10,9 @@ or
 yarn add react-generic-tile
 ```
 
+## Demo
+![](https://i.imgur.com/BMsecOs.png)
+
 ## Example
 ```
 import React from "react";
