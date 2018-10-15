@@ -2,7 +2,7 @@ import React, {Component} from 'react';
 import {render} from 'react-dom';
 import {MdCancel, MdChat, MdCheck} from 'react-icons/md';
 import {FiUsers} from 'react-icons/fi';
-import KPI from '../../src';
+import KPI from '../../lib';
 
 class Demo extends Component {
   state = {
@@ -14,7 +14,7 @@ class Demo extends Component {
       <h1>react-generic-tile Demo</h1>
       <div style={{ display: 'flex'}}>
         <KPI
-          header={"Jessica Danielle Johnson"}
+          header={"Jessica Daniell"}
           subheader={"Senior Consultant, Department Sales & Distribution"}
           loading={this.state.loading}
           number={"65.5"}

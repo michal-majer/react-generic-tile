@@ -35,7 +35,8 @@ const GenericTile = styled.div`
 
 const Header = styled.div`
   position: relative;
-  height: 2.4em;
+  min-heightL 1.2em;
+  max-height: 2.4em;
   font-size: 16px;
 `
 
