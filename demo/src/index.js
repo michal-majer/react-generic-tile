@@ -22,6 +22,7 @@ class Demo extends Component {
           color={"Good"}
           indicator={"Up"}
           onClick={() => this.setState({loading: !this.state.loading})}
+          footer={"Test"}
         />
 
         <KPI

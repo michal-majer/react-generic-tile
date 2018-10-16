@@ -58,7 +58,7 @@ const Loading = styled.div`
 `;
 
 const TileContent = styled.div`
-  height: 4.5rem;
+  height: 5rem;
 `;
 
 const Footer = styled.div`

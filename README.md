@@ -11,6 +11,7 @@ yarn add react-generic-tile
 ```
 
 ## Demo
+[CodeSandbox Demo: https://codesandbox.io/s/23yj4zr9w0?expanddevtools=1](https://codesandbox.io/s/23yj4zr9w0?expanddevtools=1)
 ![](https://i.imgur.com/BMsecOs.png)
 
 ## Example
@@ -54,4 +55,3 @@ ReactDOM.render(<App />, rootElement);
 | `icon` | `Object` | '' | Icon object |
 | `color` | `String` | '' | Hex Color or : "Good", "Warning" or "Bad" |
 | `loading` | `Boolean` | false | Loading state |
-
